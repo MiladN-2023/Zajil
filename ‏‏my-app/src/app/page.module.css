@@ -157,7 +157,7 @@
 }
 .sec3 .continer{
   background-color: #f7f4f4;
-    width: 80%;
+    width: 309.6px;
     border: 1px solid black;
     border-radius: 5px;
     z-index: 1;
@@ -180,7 +180,7 @@
 
 .sec3 .backthree{
   position: absolute;
-  width: 100%;
+  width: 412px;
   height: 77vh;
   background: linear-gradient(to top, #0075ed, transparent);
   top: -151px;
@@ -196,7 +196,7 @@
   align-items: center;
   flex-direction: column;
   top: 66px;
-  width: 100%;
+  width: 412px;
   z-index: 5;
   height: 80vh;
   backdrop-filter: blur(21px);
