@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6000px;
+    margin-bottom: 5800px;
 }
 .background{
     position: absolute;
@@ -19,7 +19,7 @@
     height: 535vh;
     background: linear-gradient(to top,#0075ed,transparent);
     position: absolute;
-    top: 800px;
+    top: 1500px;
 }
 
 .main .continer{
