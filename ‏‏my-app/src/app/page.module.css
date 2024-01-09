@@ -210,7 +210,9 @@ margin: 10px 0;
   color: rgb(196, 171, 27);
 }
 
-
+.main div p{
+    width:309.6px;
+}
 @keyframes textpath {
   form{transform: translateX(50%);}
   to{transform: translateX(-2%);}
