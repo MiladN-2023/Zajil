@@ -4,7 +4,7 @@ const Career = () => {
   return (
     <div className={styles.main}>
         <div className={styles.sec1}>
-                <video src="https://backend.zajil-express.com/assets/video/video.mp4" width={500} autoPlay loop muted></video>
+                <video src="https://backend.zajil-express.com/assets/video/video.mp4" width={425} autoPlay loop muted></video>
         </div>
         <div className={styles.backen}></div>
         <div className={styles.back}></div>

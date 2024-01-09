@@ -11,7 +11,7 @@ const About = () => {
         <div className={styles.sec}>
           <Image
             src={trc}
-            width={400}
+            width={350}
             height={200}
           />
           <h4>نبذة عن زاجل إكسبريس</h4>

@@ -3,20 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5312px;
+    margin-bottom: 4672px;
 }
 .background{
     position: absolute;
     width: 100%;
     height: 20vh;
     background: linear-gradient(to bottom, #0075ed, transparent);
-    top: 376px;
+    top: 282px;
 
 }
 
 .main .back{
     width: 100%;
-    height: 902vh;
+    height: 535vh;
     background: linear-gradient(to top,#0075ed,transparent);
     position: absolute;
     top: 72px;

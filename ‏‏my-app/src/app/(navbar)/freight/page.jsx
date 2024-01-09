@@ -7,7 +7,7 @@ const Freight = () => {
     <div className={styles.main}>
          <Image
                     src={back}
-                    width={500}
+                    width={412}
                 />
         <div className={styles.back}></div>
         <div className={styles.continer}>

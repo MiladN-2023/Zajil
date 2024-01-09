@@ -47,7 +47,7 @@ export default function Home() {
         <div>
           <Image
             src={img1}
-            width={450}
+            width={412}
             height={250}
           />
           <p>نقل البضائع من مكان لآخر ومن دولة إلى أخرى إما عن طريق الشحن البحري عبر الموانئ بواسطة السفن أو الشحن الجوي عبر المطارات بواسطة الطائرات أو الشحن البري بواسطة الشاحنات والقطارات</p>
@@ -55,7 +55,7 @@ export default function Home() {
         <div>
         <Image
             src={img2}
-            width={450}
+            width={412}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟
@@ -64,7 +64,7 @@ export default function Home() {
         <div>
         <Image
             src={img3}
-            width={450}
+            width={412}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟
@@ -73,7 +73,7 @@ export default function Home() {
         <div>
         <Image
             src={img4}
-            width={450}
+            width={412}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟

@@ -8,7 +8,7 @@ const Terms = () => {
         <div >
             <Image
                 src={bac}
-                width={600}
+                width={412}
             />
         </div>
         <div className={styles.back}></div>

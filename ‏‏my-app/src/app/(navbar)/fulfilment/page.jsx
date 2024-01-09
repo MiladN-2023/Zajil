@@ -8,7 +8,7 @@ const Fulfilment = () => {
     <div className={styles.main}>
         <Image
             src={image2}
-            width={500}
+            width={412}
         />
         <div className={styles.back}></div>
         <div className={styles.continer}>

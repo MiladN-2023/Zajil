@@ -57,7 +57,7 @@ if(numbertrack.current.value == "" || numbernation.current.value == "" || fullna
         <form onSubmit={handleSubmit}> 
             <Image 
               src={formza}
-              width={450}
+              width={412}
             />
             <input type="number" name='numberTrack' ref={numbertrack}  placeholder='رقم الشحنة' required maxLength="12"  minLength="8"/>
             <input type="number" name='numbernationalty' ref={numbernation} placeholder='رقم بطاقة الأحوال او الأقامة' required />
