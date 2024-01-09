@@ -1,7 +1,7 @@
 import { Tajawal } from 'next/font/google'
 import  './globals.css'
 import Footer from '@/compnante/Footer'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 const tajawal = Tajawal({ subsets: ['latin'],weight:['300','500','700'] })
 
