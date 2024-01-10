@@ -38,12 +38,12 @@
   height: 20vh;
   position: absolute;
   background: linear-gradient(to bottom, #0075ed, transparent);
-  top: 388px;
+  top: 365px;
 }
 
 .backtow{
   position: absolute;
-  top: 205px;
+  top: 230px;
   width: 412px;
   height: 20vh;
   background: linear-gradient(to top, #0075ed, transparent);
@@ -181,9 +181,9 @@
 .sec3 .backthree{
   position: absolute;
   width: 412px;
-  height: 77vh;
+  height: 84vh;
   background: linear-gradient(to top, #0075ed, transparent);
-  top: -151px;
+  top: -351px;
   z-index: 0;
 }
 
@@ -211,7 +211,7 @@ margin: 10px 0;
 }
 
 .main div p{
-    width:309.6px;
+    width:380px;
 }
 @keyframes textpath {
   form{transform: translateX(50%);}
