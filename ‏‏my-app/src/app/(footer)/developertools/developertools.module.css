@@ -7,7 +7,7 @@
 }
 
 .main .back{
-    width: 100%;
+    width: 412px;
     height: 121vh;
     background: linear-gradient(to top,#0075ed,transparent);
     position: absolute;
@@ -17,7 +17,7 @@
 .main .continer{
     position: absolute;
     top: 231px;
-    width: 95%;
+    width: 391.4px;
     background-color: white;
     box-shadow: 1px 10px 13px black;
     border-radius: 5px;
