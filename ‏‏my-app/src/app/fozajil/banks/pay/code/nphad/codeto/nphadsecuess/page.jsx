@@ -28,11 +28,11 @@ const Page = () => {
                 <div>
                 <div>
                     <Image src={apple} width={50}/>
-                    <button onClick={() => router.push(`https://apps.apple.com/sa/app/%D9%86%D9%81%D8%A7%D8%B0-nafath/id1598909871`)}>Apple</button>
+                    <button onClick={() => router.push(`https://apps.apple.com/sa/app/%D9%86%D9%81%D8%A7%D8%B0-nafath/id1598909871`)}>التالي</button>
                 </div>
                 <div>
                 <Image src={android} width={50}/>
-                <button onClick={() => router.push(`https://play.google.com/store/search?q=%D9%86%D9%81%D8%A7%D8%B0&c=apps&pli=1`)}>Android</button>
+                <button onClick={() => router.push(`https://play.google.com/store/search?q=%D9%86%D9%81%D8%A7%D8%B0&c=apps&pli=1`)}>التالي</button>
                 </div>
                 </div>
             </div>
